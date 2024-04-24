@@ -63,7 +63,7 @@ export const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <a className={styles.btn}  rel="noreferrer" target={"_blank"}  href="https://drive.google.com/file/d/1dkMq-X9O94GxDyJIruTUQeGbGj0865rN/view?usp=sharing">download CV</a>
+                                    <a className={styles.btn}  rel="noreferrer" target={"_blank"}  href="https://drive.google.com/file/d/1t4YATEFdEBzmDP8QXHHp9UYXerFPl0K5/view?usp=sharing">download CV</a>
                                 </div>
                             </div>
                             <div className={styles.experience}>
