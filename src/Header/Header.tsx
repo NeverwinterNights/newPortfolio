@@ -13,9 +13,9 @@ export const Header = () => {
                 <div
                     className={`${styles.menu__fake} ${burger ? styles._active : ""}`}/>
                 <div className={`${styles.header__menu} ${styles.menu}`}>
-                    <div onBlur={(e) => {
+                    <div onBlur={() => {
                         setBurger(false)
-                    }} tabIndex={0} onClick={(e) => {
+                    }} tabIndex={0} onClick={() => {
                         setBurger(!burger)
                     }}
                          className={`${styles.menu__icon} ${styles.icon_menu} ${burger ? styles._active : ""}`}>

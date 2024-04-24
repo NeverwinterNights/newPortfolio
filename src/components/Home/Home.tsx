@@ -5,11 +5,9 @@ import arrow from "./../../img/arrow.svg";
 import {NavLink} from 'react-router-dom';
 
 
-type  NamePropsType = {
-    clb: () => void
-}
 
-export const Home = (props: NamePropsType) => {
+
+export const Home = () => {
 
     const [customStyle, setCustomStyle] = useState<any>(styles.wrapper)
 

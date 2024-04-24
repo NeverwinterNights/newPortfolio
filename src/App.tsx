@@ -50,7 +50,8 @@ function App() {
                     }
                     <MobileMenu/>
                     {/*{!customRedirect && <Route exact path="/" render={() => <Redirect to="/home"/>}/>}*/}
-                    <Route path="/home" render={() => <Home clb={clb}/>}/>
+                    {/*<Route path="/home" render={() => <Home clb={clb}/>}/>*/}
+                    <Route path="/home" render={() => <Home/>}/>
                     <Route path="/about" component={About}/>
                     <Route path="/portfolio" component={Portfolio}/>
                     <Route path="/contacts" component={Contacts}/>

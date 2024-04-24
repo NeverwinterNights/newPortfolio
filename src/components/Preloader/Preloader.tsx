@@ -1,9 +1,8 @@
 import {useEffect, useState} from 'react';
 import styles from "./Preloader.module.scss";
-import {Redirect} from "react-router-dom";
 
-export const Preloader =() => {
-    const [customStyle, setCustomStyle] = useState(styles.main)
+export const Preloader = () => {
+    const [_, setCustomStyle] = useState(styles.main)
 
 
     useEffect(() => {
@@ -12,14 +11,12 @@ export const Preloader =() => {
         setTimeout(() => setCustomStyle(styles.main_after), 2000)
 
 
-
-
     }, [])
 
- return (
-    <div className={styles.customStyle}>
+    return (
+        <div className={styles.customStyle}>
 
-    </div>
+        </div>
 
     );
 };
