@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import styles from "./About.module.scss";
 import photo from "./../../img/my.jpg";
 import arrow from "../../img/arrow.svg";
@@ -11,7 +11,7 @@ import {NavLink} from "react-router-dom";
 export const About = () => {
 
 
-    const [customStyle, setCustomStyle] = useState(styles.wrapper)
+    const [customStyle, setCustomStyle] = useState<any>(styles.wrapper)
 
 
     useEffect(() => {

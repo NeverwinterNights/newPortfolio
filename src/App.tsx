@@ -2,7 +2,7 @@ import  {useEffect, useState} from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Home} from "./components/Home/Home";
-import {HashRouter, Redirect, Route, useHistory} from "react-router-dom";
+import {HashRouter, Redirect, Route} from "react-router-dom";
 import {About} from './components/About/About';
 import {Portfolio} from "./components/Portfolio/Portfolio";
 import {Contacts} from "./components/Contacts/Contacts";
@@ -18,7 +18,7 @@ function App() {
         return()=> clearTimeout(id)
 
     }, [])
-    let history = useHistory();
+    // let history = useHistory();
 
     const clb = () => {
         if (window.innerWidth <= 999) {

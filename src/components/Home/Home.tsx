@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import styles from "./Home.module.scss";
 import photo from "./../../img/my.jpg";
 import arrow from "./../../img/arrow.svg";
@@ -11,7 +11,7 @@ type  NamePropsType = {
 
 export const Home = (props: NamePropsType) => {
 
-    const [customStyle, setCustomStyle] = useState(styles.wrapper)
+    const [customStyle, setCustomStyle] = useState<any>(styles.wrapper)
 
 
     useEffect(() => {

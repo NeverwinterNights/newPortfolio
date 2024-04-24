@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import styles from "./Portfolio.module.scss";
 import {NavLink} from "react-router-dom";
 import arrow from "../../img/arrow.svg";
@@ -21,7 +21,7 @@ import location from "./../../img/portfolio/location.jpg";
 
 export const Portfolio = () => {
 
-    const [customStyle, setCustomStyle] = useState(styles.wrapper)
+    const [customStyle, setCustomStyle] = useState<any>(styles.wrapper)
 
 
     useEffect(() => {

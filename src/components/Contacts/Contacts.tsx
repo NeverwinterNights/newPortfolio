@@ -1,11 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import styles from "./Contacts.module.scss";
 import {NavLink} from "react-router-dom";
 import arrow from "../../img/arrow.svg";
 
 export const Contacts = () => {
 
-    const [customStyle, setCustomStyle] = useState(styles.wrapper)
+    const [customStyle, setCustomStyle] = useState<any>(styles.wrapper)
 
 
     useEffect(() => {
